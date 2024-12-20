@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "XJCustomSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A short description of XJCustomSDK."
   spec.description  = "MyCustomSDK provides a collection of commonly used methods for Swift projects."
   spec.homepage     = "https://github.com/candyxj123/XJCustomSDK"

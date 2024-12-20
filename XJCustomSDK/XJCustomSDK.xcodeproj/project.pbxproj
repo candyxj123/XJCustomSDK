@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3DF6512D15667800F8437C /* PublicAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DF6502D15667800F8437C /* PublicAPI.swift */; };
+		3E3DF6532D15671F00F8437C /* StoryBoard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DF6522D15671F00F8437C /* StoryBoard+Extension.swift */; };
 		3E78797F2D141D5500BFC907 /* XJCustomSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E78797C2D141D5500BFC907 /* XJCustomSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E7879802D141D5500BFC907 /* XJCustomSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3E78797D2D141D5500BFC907 /* XJCustomSDK.docc */; };
-		3E7879822D141DB000BFC907 /* CustomStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7879812D141DB000BFC907 /* CustomStoryBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E3DF6502D15667800F8437C /* PublicAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicAPI.swift; sourceTree = "<group>"; };
+		3E3DF6522D15671F00F8437C /* StoryBoard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StoryBoard+Extension.swift"; sourceTree = "<group>"; };
 		3E78796F2D141D5100BFC907 /* XJCustomSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XJCustomSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E78797C2D141D5500BFC907 /* XJCustomSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJCustomSDK.h; sourceTree = "<group>"; };
 		3E78797D2D141D5500BFC907 /* XJCustomSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = XJCustomSDK.docc; sourceTree = "<group>"; };
-		3E7879812D141DB000BFC907 /* CustomStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStoryBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +51,8 @@
 		3E78797E2D141D5500BFC907 /* XJCustomSDK */ = {
 			isa = PBXGroup;
 			children = (
-				3E7879812D141DB000BFC907 /* CustomStoryBoard.swift */,
+				3E3DF6502D15667800F8437C /* PublicAPI.swift */,
+				3E3DF6522D15671F00F8437C /* StoryBoard+Extension.swift */,
 				3E78797C2D141D5500BFC907 /* XJCustomSDK.h */,
 				3E78797D2D141D5500BFC907 /* XJCustomSDK.docc */,
 			);
@@ -139,7 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E7879802D141D5500BFC907 /* XJCustomSDK.docc in Sources */,
-				3E7879822D141DB000BFC907 /* CustomStoryBoard.swift in Sources */,
+				3E3DF6512D15667800F8437C /* PublicAPI.swift in Sources */,
+				3E3DF6532D15671F00F8437C /* StoryBoard+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +219,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;

@@ -19,11 +19,18 @@ public class CustomStoryBoard{
         return vc
     }
     
+    public static func XJCustomCreatVCFromStoryBoardNoExtension(VCName : String , storyBoardName : String = "Main") -> UIViewController{
+        
+        let storybd = UIStoryboard(name: storyBoardName, bundle: nil)
+        let vc = storybd.instantiateViewController(withIdentifier: VCName)
+        return vc
+    }
+    
 }
 
 public extension CustomStoryBoard{
     
-    static func XJCustomCreatVCFromStoryBoard(VCName : String , storyBoardName : String = "Main") -> UIViewController{
+    public static func XJCustomCreatVCFromStoryBoard(VCName : String , storyBoardName : String = "Main") -> UIViewController{
         
         let storybd = UIStoryboard(name: storyBoardName, bundle: nil)
         let vc = storybd.instantiateViewController(withIdentifier: VCName)
